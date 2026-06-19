@@ -18,6 +18,15 @@ slprj/
 *.scc
 *.ssc~
 
+# --- Simulink Auto-Generated Backup & Trash ---
+# Prevents GUI artifacts and conflict resolution backups from being tracked
+*.slx.original
+*.slx.autosave
+*.mdl.original
+*.mdl.autosave
+*.sreq
+*.sxc
+
 # --- Code Generation (Simulink Coder / Embedded Coder) ---
 # Ignore generated code directories and reports
 *_ert_rtw/
